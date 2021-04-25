@@ -14,7 +14,6 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "git@github.com:jacobawhitehead/ThemeKit.git", from: "0.0.4"),
-        .package(url: "git@github.com:jacobawhitehead/ThemeKit.git", from: "0.0.4"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
