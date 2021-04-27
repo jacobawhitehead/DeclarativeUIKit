@@ -13,8 +13,7 @@ let package = Package(
             targets: ["DeclarativeUIKit"]),
     ],
     dependencies: [
-        .package(url: "git@github.com:jacobawhitehead/ThemeKit.git", from: "0.0.4"),
-        .package(url: "git@github.com:jacobawhitehead/ThemeKit.git", from: "0.0.4"),
+        .package(url: "git@github.com:jacobawhitehead/ThemeKit.git", from: "0.0.5")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
