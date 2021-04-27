@@ -23,7 +23,7 @@ extension UILayoutGuide: Anchorable { }
 public extension UIView {
     
     @discardableResult
-    func backgroundColor(_ context: ColorContext) -> Self {
+    func backgroundStyle(_ context: ColorContext) -> Self {
         backgroundColor = Theme.color(for: context)
         return self
     }
